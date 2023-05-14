@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassabook.Api", "Kassabook.Api\Kassabook.Api.csproj", "{32D18AED-C8BD-4515-8DE3-17A3436C2052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassabook.Service", "Kassabook.Service\Kassabook.Service.csproj", "{62FCBFED-6754-469C-B145-2CDBDE74FD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassabook.BL", "Kassabook.BL\Kassabook.BL.csproj", "{84929D9D-0894-4B24-9189-49ADDE432530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassabook.DL", "Kassabook.DL\Kassabook.DL.csproj", "{E1821C06-DC61-46B9-976E-1A15EE7405E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{73A741C8-B053-458F-8DE7-311F4C2B852B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassabook.Dto", "Kassabook.Dto\Kassabook.Dto.csproj", "{481D5EC6-F8D4-4661-AEFF-E8B3BE2BD1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A4A5FB1-6D60-4426-940E-2A6A7A6EA158}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D18AED-C8BD-4515-8DE3-17A3436C2052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D18AED-C8BD-4515-8DE3-17A3436C2052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D18AED-C8BD-4515-8DE3-17A3436C2052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D18AED-C8BD-4515-8DE3-17A3436C2052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FCBFED-6754-469C-B145-2CDBDE74FD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FCBFED-6754-469C-B145-2CDBDE74FD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FCBFED-6754-469C-B145-2CDBDE74FD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FCBFED-6754-469C-B145-2CDBDE74FD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84929D9D-0894-4B24-9189-49ADDE432530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84929D9D-0894-4B24-9189-49ADDE432530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84929D9D-0894-4B24-9189-49ADDE432530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84929D9D-0894-4B24-9189-49ADDE432530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1821C06-DC61-46B9-976E-1A15EE7405E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1821C06-DC61-46B9-976E-1A15EE7405E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1821C06-DC61-46B9-976E-1A15EE7405E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1821C06-DC61-46B9-976E-1A15EE7405E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A741C8-B053-458F-8DE7-311F4C2B852B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A741C8-B053-458F-8DE7-311F4C2B852B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A741C8-B053-458F-8DE7-311F4C2B852B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A741C8-B053-458F-8DE7-311F4C2B852B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481D5EC6-F8D4-4661-AEFF-E8B3BE2BD1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481D5EC6-F8D4-4661-AEFF-E8B3BE2BD1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481D5EC6-F8D4-4661-AEFF-E8B3BE2BD1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481D5EC6-F8D4-4661-AEFF-E8B3BE2BD1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C7AE39-AC0F-4428-9105-810E476CCDF0}
+	EndGlobalSection
+EndGlobal

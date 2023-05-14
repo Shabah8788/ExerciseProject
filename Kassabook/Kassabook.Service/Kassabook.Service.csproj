@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kassabook.BL\Kassabook.BL.csproj" />
+    <ProjectReference Include="..\Kassabook.Dto\Kassabook.Dto.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Contracts\" />
+    <None Remove="Services\" />
+    <None Remove="Contracts\Account\" />
+    <None Remove="Services\Account\" />
+    <None Remove="Contracts\Transaction\" />
+    <None Remove="Services\Transaction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Services\" />
+    <Folder Include="Contracts\Account\" />
+    <Folder Include="Services\Account\" />
+    <Folder Include="Contracts\Transaction\" />
+    <Folder Include="Services\Transaction\" />
+  </ItemGroup>
+</Project>
